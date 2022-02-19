@@ -1,0 +1,57 @@
+.router-wrapper {
+  overflow: hidden;
+}
+
+/* 路由前进时的入场/离场动画 */
+.forward-enter {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.forward-enter-active {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 500ms;
+}
+
+.forward-exit {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.forward-exit-active {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 500ms;
+}
+
+/* 路由后退时的入场/离场动画 */
+.back-enter {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.back-enter-active {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 500ms;
+}
+
+.back-exit {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.back-exit-active {
+  -webkit-transform: translateX(100%);
+  transform: translate(100%);
+  opacity: 0;
+  transition: all 500ms;
+}

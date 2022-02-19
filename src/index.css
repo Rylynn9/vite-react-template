@@ -1,0 +1,14 @@
+@font-face {
+  font-weight: normal;
+  font-family: 'Hifont';
+  font-style: normal;
+  src: url('/fonts/HiFont.eot');
+  src: url('/fonts/HiFont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/HiFont.woff') format('woff'),
+    url('/fonts/HiFont.ttf') format('truetype'),
+    url('/fonts/HiFont.svg#NeuesBauenDemo') format('svg');
+}
+
+body {
+  font-family: 'microsoft yahei', Verdana, '\5b8b\4f53'; /* 宋体，Unicode，统一码 */
+}

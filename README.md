@@ -1,7 +1,7 @@
 ## vite-react-template
 
-- 基于typescipt、react、vite、less
-- 路由管理react-router-dom@6、react-transition-group 完成
+- 基于typescipt、react、vite、less ✅
+- 路由管理react-router-dom@6、react-transition-group ✅
 - 网络请求axios ✅
 - 数据管理unstated-next ✅
 - 包管理pnpm ✅

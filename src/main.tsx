@@ -8,12 +8,10 @@ import 'normalize.css';
 import './index.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <StateProviders>
-      <HashRouter>
-        <Routes />
-      </HashRouter>
-    </StateProviders>
-  </React.StrictMode>,
+  <StateProviders>
+    <HashRouter>
+      <Routes />
+    </HashRouter>
+  </StateProviders>,
   document.getElementById('root'),
 );

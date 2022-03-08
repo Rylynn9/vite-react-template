@@ -39,10 +39,6 @@ export default defineConfig({
   server: {
     // https: true,
     proxy: {
-      '/hifond': {
-        target: process.env.VITE_REQUESET_REQUESET_DOMIN,
-        changeOrigin: true,
-      },
       '/api': {
         target: process.env.VITE_REQUESET_REQUESET_DOMIN,
         changeOrigin: true,

@@ -1,14 +1,14 @@
-stages:
-  - build
-  - development
-  - test
-  - prod
+# stages:
+#   - build
+#   - development
+#   - test
+#   - prod
 
-variables:
-  BUILD_IMAGE: 'node:14'
-  PREPARE_CMD: yarn #安装依赖包的命令
-  DIST_PATH: dist #打包结果的路径
-  GIT_SUBMODULE_STRATEGY: recursive
-#------------- 自助机开发环境 -------------
-#------------- 自助机测试环境 -------------
-#------------- 自助机正式环境 -------------
+# variablesß
+#   BUILD_IMAGE: 'node:14'
+#   PREPARE_CMD: yarn #安装依赖包的命令
+#   DIST_PATH: dist #打包结果的路径
+#   GIT_SUBMODULE_STRATEGY: recursive
+#------------- 开发环境 -------------
+#------------- 测试环境 -------------
+#------------- 正式环境 -------------
